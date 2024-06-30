@@ -2,6 +2,8 @@
 
 Dive into coding with our simple yet powerful code editor. Perfect for quick edits, testing snippets, and learning new programming concepts.
 
+<img width="600" text-align="center" alt="Screenshot 2024-06-30 at 9 55 39 PM" src="https://github.com/Saichandra2520/Simple-code-editor/assets/87373255/eb89cec8-76c1-47e3-b53b-79e61c8d8acc">
+
 ## Features
 
 - **Lightweight and Fast**: Designed to be quick and responsive.
@@ -34,22 +36,11 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 4. Open your browser and navigate to http://localhost:3000 to see the code editor in action.
 
 ## Project Structure
-my-code-editor/
-│
-├── src/
-│   ├── components/
-│   │   ├── CodeEditor.jsx
-│   │   └── CodeEditor.css
-│   ├── App.jsx
-│   └── index.js
-├── public/
-│   └── index.html
-├── package.json
-└── README.md
-src/components/CodeEditor.jsx
+
+src/components/CodeEditor/CodeEditor.jsx
 Contains the main code editor component with a textarea for input and a syntax highlighter for displaying formatted code.
 
-src/components/CodeEditor.css
+src/components/CodeEditor/CodeEditor.css
 Contains the styles for the code editor component, ensuring proper alignment and scroll synchronization between the textarea and the syntax highlighter.
 
 src/App.jsx
