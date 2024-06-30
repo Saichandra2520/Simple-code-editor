@@ -27,5 +27,42 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/react-simple-code-editor.git
+   git clone https://github.com/Saichandra2520/Simple-code-editor.git
    cd react-simple-code-editor
+2. Install dependencies:
+3. Start the development server:
+4. Open your browser and navigate to http://localhost:3000 to see the code editor in action.
+
+## Project Structure
+my-code-editor/
+│
+├── src/
+│   ├── components/
+│   │   ├── CodeEditor.jsx
+│   │   └── CodeEditor.css
+│   ├── App.jsx
+│   └── index.js
+├── public/
+│   └── index.html
+├── package.json
+└── README.md
+src/components/CodeEditor.jsx
+Contains the main code editor component with a textarea for input and a syntax highlighter for displaying formatted code.
+
+src/components/CodeEditor.css
+Contains the styles for the code editor component, ensuring proper alignment and scroll synchronization between the textarea and the syntax highlighter.
+
+src/App.jsx
+The root component that includes the heading and the CodeEditor component.
+
+src/index.js
+Bootstraps the React application and renders it into the root element.
+
+##Customization
+Feel free to modify the code editor according to your requirements. You can change the theme, add more features, or integrate additional libraries as needed.
+
+##Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+##License
+This project is open-source and available under the MIT License.
