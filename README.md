@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# React Simple Code Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dive into coding with our simple yet powerful code editor. Perfect for quick edits, testing snippets, and learning new programming concepts.
 
-## Available Scripts
+![](https://github.com/Saichandra2520/Simple-code-editor/blob/main/public/ezgif.com-video-to-gif-converter.gif)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Lightweight and Fast**: Designed to be quick and responsive.
+- **Syntax Highlighting**: Supports various programming languages for better readability.
+- **Easy to Use**: Intuitive interface for hassle-free coding.
+- **Customizable Themes**: Choose from multiple themes to suit your preference.
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- **Open Source**: Free to use and modify according to your needs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Start Typing**: Begin entering your code in the editor.
+2. **Highlighting**: Enjoy real-time syntax highlighting as you type.
+3. **Scroll Sync**: Effortlessly navigate through your code with synchronized scrolling.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Saichandra2520/Simple-code-editor.git
+   cd react-simple-code-editor
+2. Install dependencies:
+3. Start the development server:
+4. Open your browser and navigate to http://localhost:3000 to see the code editor in action.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+src/components/CodeEditor/CodeEditor.jsx
+Contains the main code editor component with a textarea for input and a syntax highlighter for displaying formatted code.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src/components/CodeEditor/CodeEditor.css
+Contains the styles for the code editor component, ensuring proper alignment and scroll synchronization between the textarea and the syntax highlighter.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+src/App.jsx
+The root component that includes the heading and the CodeEditor component.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+src/index.js
+Bootstraps the React application and renders it into the root element.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Customization
+Feel free to modify the code editor according to your requirements. You can change the theme, add more features, or integrate additional libraries as needed.
 
-## Learn More
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is open-source and available under the MIT License.
