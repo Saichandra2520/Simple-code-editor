@@ -49,11 +49,11 @@ The root component that includes the heading and the CodeEditor component.
 src/index.js
 Bootstraps the React application and renders it into the root element.
 
-##Customization
+## Customization
 Feel free to modify the code editor according to your requirements. You can change the theme, add more features, or integrate additional libraries as needed.
 
-##Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-##License
+## License
 This project is open-source and available under the MIT License.
