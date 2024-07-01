@@ -2,7 +2,7 @@
 
 Dive into coding with our simple yet powerful code editor. Perfect for quick edits, testing snippets, and learning new programming concepts.
 
-<img width="600" text-align="center" alt="Screenshot 2024-06-30 at 9 55 39 PM" src="https://github.com/Saichandra2520/Simple-code-editor/assets/87373255/eb89cec8-76c1-47e3-b53b-79e61c8d8acc">
+![](https://github.com/Saichandra2520/Simple-code-editor/blob/main/public/ezgif.com-video-to-gif-converter.gif)
 
 ## Features
 
