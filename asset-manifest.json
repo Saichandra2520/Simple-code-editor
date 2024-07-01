@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Saichandra2520/Simple-code-editor/static/css/main.9e0d5f07.css",
+    "main.js": "/Saichandra2520/Simple-code-editor/static/js/main.51acdaba.js",
+    "index.html": "/Saichandra2520/Simple-code-editor/index.html",
+    "main.9e0d5f07.css.map": "/Saichandra2520/Simple-code-editor/static/css/main.9e0d5f07.css.map",
+    "main.51acdaba.js.map": "/Saichandra2520/Simple-code-editor/static/js/main.51acdaba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e0d5f07.css",
+    "static/js/main.51acdaba.js"
+  ]
+}
